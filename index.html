@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BMI Calculator</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="script.js">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -25,16 +25,7 @@
         <button onclick="calculateBMI()">Calculate BMI</button>
         <button onclick="resetForm()">Reset</button>
         <div id="result" class="result"></div>
-
     </div>
-    <!-- <div class="conversion-section">
-        <h2>Get your height in cm</h2>
-        <label for="feetAndInches">Feet and Inches:</label>
-        <input type="text" id="feetAndInches" placeholder="e.g., 5.6 (5 feet 6 inches)">
-        <button class="convert-button" onclick="convertFeetAndInchesToCm()">Convert to Centimeters</button>
-        <button onclick="resetForm()">Reset</button>
-        <div id="conversion-result"></div>
-    </div> -->
     <div class="bmi-category" id="bmi-category">
         <h2>BMI Categories</h2>
         <table>
